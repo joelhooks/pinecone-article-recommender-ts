@@ -1,0 +1,39 @@
+{
+  "name": "pinecone-article-recommender-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf .turbo node_modules dist",
+    "dev": "tsup --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.0",
+    "@types/node": "^20.4.2",
+    "@types/yargs": "^17.0.24",
+    "prettier": "^3.0.0",
+    "seedrandom": "^3.0.5",
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^0.1.6",
+    "@xenova/transformers": "^2.4.1",
+    "chalk": "^5.3.0",
+    "cli-progress": "^3.12.0",
+    "cross-fetch": "^4.0.0",
+    "danfojs-node": "^1.1.2",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.109",
+    "yargs": "^17.7.2"
+  }
+}
